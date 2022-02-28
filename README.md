@@ -3,11 +3,12 @@
 
 -----------------------
 
-This project makes use of a set of software libraries [__ROS__](http://wiki.ros.org) (__Robot-Operating-Systems__) to build a robot application that makes a robot run autonomously in the Monza circuit.
+In this project i used a set of software libraries [__ROS__](http://wiki.ros.org) (__Robot-Operating-Systems__)
+ The robot application i built practically makes a robot run autonomously in the Monza circuit with. There is also a simple User Interface that makes u interact with the robot
 
 I created two nodes: 
 * One to control autonomously the movement of the robot.
-* The second one to create a really basic basic Uman Interface(UI) to increase or decrease run-time the velocity run-time, and also to reset the robot position to the starting one.
+* The second one to create a really basic basic Uman Interface(UI) to increase or decrease run-time the velocity run-time, and also to reset the robot position.
 
 Installing and running  
 -----------------------
