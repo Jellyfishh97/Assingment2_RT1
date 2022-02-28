@@ -1,0 +1,5 @@
+<launch>	
+	<node name="carcontroller_node" pkg="secondAssignment" type="carcontroller_node" output="screen" launch-prefix="xterm -e" required="true"/>
+	<node name="UI_node" pkg="secondAssignment" type="UI_node" output= "screen" required="true"/>
+	<node name="stageros" pkg="stage_ros" type="stageros" required ="true" args = "$(find secondAssignment)/world/my_world.world"/>
+</launch>
