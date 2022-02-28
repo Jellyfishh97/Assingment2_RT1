@@ -143,12 +143,13 @@ Where:
 Flowchart
 ----------------------
 
-The flow chart of the project: 
+The flow chart of the project: ![Untitled Diagram drawio](https://user-images.githubusercontent.com/91626281/156035284-085892f8-b013-4771-add6-466f8f77fe53.png)
 
 Improvements ?
 ----------------------
 - Maybe could be useful to implement a "Starting the curve" function, in order to make the robot path smoother and to make it goes faster.
 For the pupose of speed, we could also maybe try to devide the f.o.w. of the robot in more slices (not only 3) in order to retrive more data, with the aim of a more precise control of the robot during curves.
+
 
 
 
