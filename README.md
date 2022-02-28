@@ -7,7 +7,9 @@ This project makes use of a set of software libraries [__ROS__](http://wiki.ros.
 
 The robot is practically a cube with laser scanners and the circuit is the Monza F1 circuit:
 
-This is the initial situation:<img width="457" alt="map" src="https://user-images.githubusercontent.com/91626281/156046726-9142565b-52ff-4ca2-b3b4-ce0719b55b38.png">
+This is the initial situation:
+
+<img width="457" alt="map" src="https://user-images.githubusercontent.com/91626281/156046726-9142565b-52ff-4ca2-b3b4-ce0719b55b38.png">
 
 
 
@@ -168,7 +170,9 @@ Of course the faster the robot the more probabilities there is for it to crush i
 
 Flowchart
 ----------------------
-The flow chart of the project: ![Untitled Diagram drawio](https://user-images.githubusercontent.com/91626281/156046687-189a83a2-2060-43ec-a166-a7f7cd6865ab.png)
+The flow chart of the project: 
+
+![Untitled Diagram drawio](https://user-images.githubusercontent.com/91626281/156046687-189a83a2-2060-43ec-a166-a7f7cd6865ab.png)
 
 
 Improvements ?
