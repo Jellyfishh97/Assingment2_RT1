@@ -23,13 +23,6 @@ for the Robot:
 * being able to accelerate or decelerate according to the user's will
 * resetting its position to the starting one if asked to do so
 
-What did i do ?
----------------
-
-I created two nodes: 
-* One to control autonomously the movement of the robot.
-* The second to create a really basic User Interface(UI) to increase or decrease in run-time the velocity, and also to reset the robot position to the starting one.
-
 Installing and running  
 ---------------------
 
@@ -64,6 +57,15 @@ just use the next command to make the simulation start
 	roslaunch secondAssignment toRun.launch
 ```
 where `secondAssignment` is the name of the ros package I created.
+
+What did i do ?
+---------------
+
+I created two nodes: 
+* One to control autonomously the movement of the robot.
+* The second to create a really basic User Interface(UI) to increase or decrease in run-time the velocity, and also to reset the robot position to the starting one.
+
+## Node Analysis
 
 StageRos_Node
 -------------
