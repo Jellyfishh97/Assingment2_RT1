@@ -49,7 +49,13 @@ __`toRun.launch`__ :
 
 __Commands to launch the project__:
 
-after cloning the repository in ur workspace and building it with the command
+At first make sure to have xterm installed, if not run: 
+```bash
+	sudo apt-get install xterm
+```
+(this is just to make the UI more functional, since it is gonna open a new terminal to display the instant velocity)
+
+After cloning the repository in ur workspace and building it with the command
 
 ```bash
 	catkin_make
@@ -178,10 +184,14 @@ The flow chart of the project:
 
 Improvements ?
 ----------------------
-Maybe could be useful to implement a "Starting the curve" function, in order to make the robot path smoother and to make it goes faster.
+* Maybe could be useful to implement a "Starting the curve" function, in order to make the robot path smoother and to make it goes faster.
 For the pupose of speed, we could also maybe try to devide the f.o.w. of the robot in more slices (not only 3) in order to retrive more data, with the aim of a more precise control of the robot during curves.
 More precisely i think that computing always the "freest" direction, so the direction where the wall is more distant from the robot, should be a good first step. Of course this approach must take into account that the robot has its own dimensions and it is not just a point. (robot could hit the wall with the lateral edges for example)
 
+* Change the name secondAssignment in second_assignment since ROS has troubles with caps lock packages names.
+
+* Using the default (Gnome) terminal of Ubuntu 20.04 in order to avoid the installation of xterm 
+(I couldn't actually make it work with Gnome, it popped up an error when running the launch file, probably linked to a wrong syntax in the launch file itself)
 
 
 
