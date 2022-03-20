@@ -158,7 +158,7 @@ void RotCallback(const sensor_msgs::LaserScan::ConstPtr& msg){
 		}	
 	}
 
-	std::cout<< "  VELOCITY: " << my_vel.linear.x << std::endl;
+	std::cout<< "  Current Velocity: " << my_vel.linear.x << std::endl;
 
 	fflush(stdout);
 
