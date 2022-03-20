@@ -11,8 +11,6 @@ This is the initial situation:
 
 <img width="457" alt="map" src="https://user-images.githubusercontent.com/91626281/156046726-9142565b-52ff-4ca2-b3b4-ce0719b55b38.png">
 
-
-
 The Package
 -----------
 The package contains the C++ sources needed for the interaction with the robot (analyzed more in depth later in this README). 
